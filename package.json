@@ -4,7 +4,7 @@
   "description": "Test xkcd.com/2198 using Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx eslint cypress/integration/*.js; npx prettier cypress/integration/* --write; npm prettier; npx cypress run --browser chrome"
+    "test": "npx eslint cypress/integration/*.js; npx prettier cypress/integration/* --write; npx cypress run -s cypress/integration/throw_calculator.spec.js --browser chrome"
   },
   "keywords": [
     "xkcd",

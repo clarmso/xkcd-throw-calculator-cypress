@@ -1,4 +1,4 @@
 {
   "baseUrl": "https://xkcd.com/2198/",
-  "defaultCommandTimeout": 10000
+  "defaultCommandTimeout": 15000
 }
