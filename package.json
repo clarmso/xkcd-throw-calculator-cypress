@@ -1,0 +1,21 @@
+{
+  "name": "xkcd-throw-calculator-cypress",
+  "version": "1.0.0",
+  "description": "Test xkcd.com/2198 using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx eslint cypress/integration/*.js; npx prettier cypress/integration/* --write; npm prettier; npx cypress run --browser chrome"
+  },
+  "keywords": [
+    "xkcd",
+    "cypress"
+  ],
+  "author": "Clare So",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "cypress": "3.4.1",
+    "eslint": "6.3.0",
+    "eslint-plugin-cypress": "2.6.1",
+    "prettier": "1.18.2"
+  }
+}
