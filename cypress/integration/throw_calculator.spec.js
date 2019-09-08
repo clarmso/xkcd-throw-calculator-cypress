@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import {results, custom} from "./results";
+import results from "./results";
 
 context("xkcd throw calculator", () => {
   before(() => {

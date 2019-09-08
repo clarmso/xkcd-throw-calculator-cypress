@@ -176,3 +176,5 @@ const results = {
     "A squirrel": { meters: null, pronoun: "A squirrel" }
   }
 };
+
+export default results;
