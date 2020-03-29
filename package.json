@@ -13,7 +13,7 @@
   "author": "Clare So",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "cypress": "4.0.0",
+    "cypress": "4.2.0",
     "eslint": "6.3.0",
     "eslint-plugin-cypress": "2.6.1",
     "prettier": "1.18.2"
