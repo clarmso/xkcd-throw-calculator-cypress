@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import results from "./results";
+import results from "../fixtures/results";
 
 context("xkcd throw calculator", () => {
   before(() => {
