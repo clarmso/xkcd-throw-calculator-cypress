@@ -1,0 +1,21 @@
+version: 2.1
+orbs:
+  cypress: cypress-io/cypress@1.25.0
+executors:
+  chrome-firefox:
+    docker:
+      - image: 'cypress/browsers:node12.14.1-chrome83-ff77'
+workflows:
+  build:
+    jobs: 
+      - cypress/install:
+          executor: chrome-firefox
+      - cypress/run:
+          executor: chrome-firefox
+          requires:
+            - cypress/install
+          attach-workspace: true
+          record: false
+          matrix:
+            parameters:
+              browser: [chrome, firefox, electron]    
