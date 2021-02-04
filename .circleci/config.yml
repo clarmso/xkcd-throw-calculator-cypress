@@ -4,10 +4,10 @@ orbs:
 executors:
   chrome-firefox:
     docker:
-      - image: 'cypress/browsers:node12.14.1-chrome83-ff77'
+      - image: "cypress/browsers:node12.18.3-chrome87-ff82"
 workflows:
   build:
-    jobs: 
+    jobs:
       - cypress/install:
           executor: chrome-firefox
       - cypress/run:
@@ -18,4 +18,4 @@ workflows:
           record: false
           matrix:
             parameters:
-              browser: [chrome, firefox, electron]    
+              browser: [chrome, firefox, electron]

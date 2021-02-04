@@ -15,7 +15,7 @@
   "author": "Clare So",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "cypress": "6.2.0"
+    "cypress": "6.4.0"
   },
   "devDependencies": {
     "eslint": "6.3.0",
