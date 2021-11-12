@@ -1,11 +1,12 @@
 # xkcd-throw-calculator-cypress
+
 A demonstration on how Cypress can automate the e2e testing of the xkcd comic (https://xkcd.com/2198/)
 
 ![Cypress running](./xkcd-cypress.gif "Cypress running")
 
 # Quick start 🚀
 
-You must have [Chrome](https://www.google.com/chrome/) browser installed . I tested with Chrome 76 when this example was developed.
+You must have [Chrome](https://www.google.com/chrome/) browser installed. I tested with Chrome 95 and Firefox 94.
 
 ```
 npm install
