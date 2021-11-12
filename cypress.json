@@ -1,9 +1,5 @@
 {
   "baseUrl": "https://xkcd.com/2198/",
   "defaultCommandTimeout": 30000,
-  "firefoxGcInterval": {
-    "runMode": null,
-    "openMode": null
-  },
   "video": false
 }
